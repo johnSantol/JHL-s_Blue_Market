@@ -1,0 +1,152 @@
+body {
+  padding-top: 00px;
+}
+.parallax{
+  background-image: url(https://previews.123rf.com/images/kotexvector/kotexvector1802/kotexvector180200236/96350906-abstract-technology-futuristic-concept-interface-hologram-elements-of-digital-data-chart-communicati.jpg);
+  height: max-content;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page-title{
+  background:rgba(0,0,0,0.5);
+  text-align: center;
+  color: white;
+  padding: 50px;
+  font-variant: small-caps;
+  font-size: 40px;
+  font-family: fantasy;
+  letter-spacing: 5px
+}
+.menu{
+  background: #2B547E;
+  text-align: center;
+}
+.menu-ul{
+  margin: 0;
+  padding:0;
+  display: inline;
+}
+.menu-ul li{
+  font-size: 17px;
+  list-style: none;
+  display: inline-block;
+  padding: 25px 25px 26px 25 px;
+}
+.a-menu{
+  text-decoration: none;
+  color: white;
+}
+.menu li:hover{
+  background: #5b8c5a;
+  transform: scale(1.1);
+}
+
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+
+.navbar {
+    width: 0;
+    color: white;
+
+    
+}
+.main_bar{
+  background-color: #333;
+ 
+}
+
+.align-right  button{
+    color: white;
+    background-color: transparent;
+    border: none;
+
+}
+.floating-btn{
+    width : 100px;
+    height: 100px;
+    background: #0275d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius:50%;
+    color:  #black;
+    font-size: 60px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+  }
+  .total-count{
+    width : 30px;
+    height: 30px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 30px;
+    top: 850px;
+    right:58px;
+    position: fixed;
+    font-weight: bolder;
+    color: white;
+  }
+
+  @media only screen and (max-width: 799.8px) {
+  body {
+    background-color: lightblue;
+  }
+
+    .row{
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+
+
+  .floating-btn{
+    width : 50px;
+    height: 50px;
+    background: #0275d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius:50%;
+    color:  #black;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
+
+  .total-count{
+    width : 15px;
+    height: 15px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 15px;
+    top: 928px;
+    right:23px;
+    position: fixed;
+    font-weight: bolder;
+    color: white;
+  }
+
+
+}
